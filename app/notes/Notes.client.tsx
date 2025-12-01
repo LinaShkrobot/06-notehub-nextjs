@@ -13,7 +13,7 @@ import { useDebounce } from "use-debounce";
 import Loader from "@/components/Loader/Loader";
 import ErrorMessage from "@/components/ErrorMessage/ErrorMessage";
 import { toast, Toaster } from "react-hot-toast";
-import ErrorPage from "./[id]/error";
+import ErrorPage from "./error";
 
 export default function App() {
   const [page, setPage] = useState(1);
